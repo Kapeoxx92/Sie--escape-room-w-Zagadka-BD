@@ -7,17 +7,21 @@ Wymagania klienta:
 "Mam 3 lokalizacje, w każdej 2-4 pokoje. Każdy pokój ma: nazwę, tematykę,
 poziom trudności (1–5), maksymalną liczbę graczy, czas na rozwiązanie (zwykle
 60 lub 90 min) i cenę.
+
 Klienci rezerwują pokój na konkretną datę i godzinę. Rezerwacja jest na zespół -
 jedna osoba rezerwuje i podaje ile osób przyjdzie (od 2 do 6). Muszę wiedzieć
 kto rezerwował, kontakt, na kiedy, ile osób, i czy zapłacono (płatność z góry lub
 na miejscu).
+
 Po grze zapisuję wynik: czy zespół uciekł (tak/nie), w jakim czasie, i ile
 podpowiedzi użył. To jest ważne, bo prowadzę ranking - najlepsze czasy w
 każdym pokoju. Chcę widzieć TOP 10 dla każdego pokoju.
+
 Mam też pracowników - każdy jest przypisany do lokalizacji. Game masterzy
 prowadzą gry - chcę wiedzieć kto prowadził którą sesję.
 Stali klienci (3+ wizyty) powinni dostawać 15% zniżki. Chciałbym łatwo widzieć
 kto się kwalifikuje.
+
 Jeśli klient odwoła rezerwację mniej niż 24h przed terminem - chcę to wiedzieć,
 ale nie chcę kasować rezerwacji, tylko oznaczyć jako anulowaną."
 
