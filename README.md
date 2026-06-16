@@ -33,8 +33,8 @@ Spełnia warunek 1NF, czyli:
 Spełnia warunek 2NF, czyli:
 - brak zależności częściowych od klucza głównego, to znaczy, że każda kolumna niebędąca kluczem musi zależeć od całego klucza głównego
 
-Spełnia warunek 1NF, czyli:
-- rak zależności przechodnich, to oznacza, że kolumny niebędące kluczem nie mogą zależeć od innych kolumn niebędących kluczem
+Spełnia warunek 3NF, czyli:
+- brak zależności przechodnich, to oznacza, że kolumny niebędące kluczem nie mogą zależeć od innych kolumn niebędących kluczem
 
 Rozwiązanie pokoi:
 
@@ -65,6 +65,7 @@ ORDER BY Czas_gry ASC LIMIT 10;
 
 
 Funkcja:
+
 CREATE FUNCTION Oblicz_cene (p_Id_pokoj INT, p_Id_klient INT, p_Liczba_uczestnikow INT) 
 RETURNS DECIMAL(10,2)
 DETERMINISTIC
