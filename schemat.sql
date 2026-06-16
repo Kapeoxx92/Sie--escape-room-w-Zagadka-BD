@@ -100,8 +100,7 @@ CREATE TABLE Sesja (
     Czas_gry TIME NOT NULL,
     Liczba_podpowiedzi INT NOT NULL DEFAULT 0,
 
+    CONSTRAINT chk_czas_gry CHECK (Czas_gry <= '01:30:00'),
     FOREIGN KEY (Id_rezerwacja) REFERENCES Rezerwacja(Id_rezerwacja),
-    FOREIGN KEY (Id_pracownik) REFERENCES Pracownik(Id_pracownik),
-
-    CHECK (Czas_gry <= '01:30:00')
+    FOREIGN KEY (Id_pracownik) REFERENCES Pracownik(Id_pracownik)
 );
